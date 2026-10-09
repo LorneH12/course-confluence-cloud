@@ -1,0 +1,150 @@
+{
+  "course": "confluence-cloud",
+  "status": "passed",
+  "browser": "141.0.7390.37",
+  "checks": [
+    "Complete task path and empty-input errors",
+    "Exact draft export",
+    "100% and 0% score boundaries; first attempt retained",
+    "Completion remains distinct from success",
+    "All 10 screens reflow at 320px with larger text",
+    "Browser-to-real-LRS delivery receipts"
+  ],
+  "receipts": [
+    {
+      "id": "6add4a85-df90-4536-b19c-9dd01fd7993f",
+      "stored": true,
+      "verb": "initialized"
+    },
+    {
+      "id": "45f0b050-20f0-401a-a38a-838b8a8769e7",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "aff241d2-47c0-4e71-8dba-41d2075efe26",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "0e6ffc9a-3494-4297-a676-006201bc6702",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "b052bde8-a9d9-4c4a-b600-233799e56672",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "58d65a97-e17c-4629-bd01-ce2d258107ec",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "0ab777d7-beab-44eb-9d6e-96f02fd31e40",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "716d916f-4796-4dbe-bd33-8f750c46e9c1",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "541414f5-1b48-42d5-b099-2d55a59d49ab",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "21e8b2fa-a531-457c-a4e4-dc407994bd7a",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "4a0bfcc1-8c45-433b-94be-1324c4560903",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "ec2ee00e-a63e-49b8-8637-d89ff5027558",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "9936c53c-abc0-424d-8772-86a28348b95d",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "c0845b78-139f-41a2-b8f2-6ee3c80059a4",
+      "stored": true,
+      "verb": "passed"
+    },
+    {
+      "id": "e505e3cd-b771-4344-83bc-c1431b744352",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "779f2008-4777-487f-8937-b0ab81d0ef9b",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "f323cf7b-04c3-4976-a1fb-fe1d74cb2e72",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "c81de83b-2294-4eda-ac4d-4e304aef33af",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "48cb2b9e-f09d-44b2-b362-4060b8b72413",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "c235d870-50d0-451c-bef4-6e1290e0eb56",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "314c177b-2782-46a6-b129-e4ce7293887f",
+      "stored": true,
+      "verb": "answered"
+    },
+    {
+      "id": "22e61e8b-3837-4042-a54f-35654f1b8c26",
+      "stored": true,
+      "verb": "failed"
+    },
+    {
+      "id": "9716e362-e7df-4d77-8571-3ca937090b19",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "487ea3b1-5b2a-440a-a85e-64ff70a18dcd",
+      "stored": true,
+      "verb": "experienced"
+    },
+    {
+      "id": "01007a7c-0518-4e0d-ba7d-8646815fde08",
+      "stored": true,
+      "verb": "completed"
+    },
+    {
+      "id": "1ec849af-7bf9-4f36-8551-2cf3e5a67c7d",
+      "stored": true,
+      "verb": "experienced"
+    }
+  ],
+  "limitations": [
+    "Not a full WCAG audit",
+    "Not a real Moodle test",
+    "Not a learner pilot"
+  ]
+}

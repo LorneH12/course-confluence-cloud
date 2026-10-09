@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "archive": "course-confluence-cloud-scorm12.zip",
+  "sha256": "d55312ae865bb99221aa82b2b00313b7e93d2da61ceddd20f4b9cc82956c573c",
+  "checks": [
+    "Manifest parses",
+    "Launch target present",
+    "All manifest files present",
+    "SCORM 1.2 SCO declaration"
+  ],
+  "boundary": "Structural test, not schema conformance or Moodle import"
+}
