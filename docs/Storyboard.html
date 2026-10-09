@@ -1,0 +1,138 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Confluence Cloud: Publish a Useful Job Aid storyboard</title><style>body{font:18px/1.6 Arial;max-width:900px;margin:40px auto;padding:20px}h1,h2{color:#a71625}pre{white-space:pre-wrap}</style><h1>Confluence Cloud: Publish a Useful Job Aid</h1><p>Script, interaction copy and keyed feedback. Text-first lesson; no narration required.</p><pre>{
+  &quot;id&quot;: &quot;confluence-cloud&quot;,
+  &quot;title&quot;: &quot;Confluence Cloud: Publish a Useful Job Aid&quot;,
+  &quot;headline&quot;: &quot;Make knowledge usable.\nShare it deliberately.&quot;,
+  &quot;audience&quot;: &quot;Trainers maintaining team knowledge&quot;,
+  &quot;need&quot;: &quot;A job aid is difficult to follow and its author assumes a shared link guarantees appropriate access.&quot;,
+  &quot;outcomes&quot;: [
+    &quot;Select a job-aid structure that helps a reader complete a task.&quot;,
+    &quot;Choose an access check appropriate to a Confluence Cloud publishing scenario.&quot;
+  ],
+  &quot;concepts&quot;: [
+    {
+      &quot;title&quot;: &quot;Design for the reader’s task&quot;,
+      &quot;body&quot;: &quot;Lead with the purpose and intended audience, then prerequisites, ordered actions, expected result and escalation. This is our editorial template for a job aid, not a mandatory Confluence page layout.&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Make ownership visible&quot;,
+      &quot;body&quot;: &quot;Name the content owner, review date and source of the approved process. Use descriptive links and meaningful headings. A useful page should help the next reader judge whether the instructions are current and where to ask for help.&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Check effective access&quot;,
+      &quot;body&quot;: &quot;Confluence has global permissions, space permissions and content restrictions. A link is not a substitute for access. Check the intended audience and any restrictions inherited from a parent before relying on a shared page.&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Recognize plan differences&quot;,
+      &quot;body&quot;: &quot;Content restrictions are not available on the Free plan. Do not promise that every tenant can apply the same restriction controls. If the required audience controls are unavailable, use an approved location and consult the space owner before publishing sensitive material.&quot;
+    }
+  ],
+  &quot;example&quot;: {
+    &quot;title&quot;: &quot;A new-trainer handoff job aid&quot;,
+    &quot;body&quot;: &quot;The draft is one long paragraph labeled “Notes.” The team needs a repeatable handoff checklist. The page should be visible to the trainer group in an appropriate team space.&quot;,
+    &quot;steps&quot;: [
+      &quot;Rename it “Complete the new-trainer handoff.”&quot;,
+      &quot;Separate prerequisites, ordered steps and the expected result.&quot;,
+      &quot;Add an owner, review date and approved process link.&quot;,
+      &quot;Check audience access and parent restrictions before sharing.&quot;,
+      &quot;Ask a representative reader to confirm they can open and use it.&quot;
+    ]
+  },
+  &quot;practice&quot;: {
+    &quot;prompt&quot;: &quot;A teammate has the link but cannot open the page. What should you investigate?&quot;,
+    &quot;options&quot;: [
+      &quot;Whether the title has enough exclamation marks&quot;,
+      &quot;Space access and content or parent restrictions&quot;,
+      &quot;Whether every page is automatically public&quot;
+    ],
+    &quot;key&quot;: 1,
+    &quot;feedback&quot;: &quot;A shared link does not itself grant the required access.&quot;
+  },
+  &quot;draft&quot;: {
+    &quot;prompt&quot;: &quot;Draft a short publishing checklist for a trainer job aid. Include usability, ownership and an audience-access check.&quot;,
+    &quot;label&quot;: &quot;Your publishing checklist&quot;,
+    &quot;model&quot;: &quot;Confirm the title names the task; use prerequisites, numbered actions and an expected result. Add the owner and review date. Check space and parent access, then verify with an intended reader before sharing.&quot;,
+    &quot;criteria&quot;: [
+      &quot;Structures the content around a reader task&quot;,
+      &quot;Names ownership or review timing&quot;,
+      &quot;Checks effective audience access&quot;,
+      &quot;Includes a reader verification step&quot;
+    ]
+  },
+  &quot;quiz&quot;: [
+    {
+      &quot;prompt&quot;: &quot;Which title best supports task finding?&quot;,
+      &quot;options&quot;: [
+        &quot;Miscellaneous notes&quot;,
+        &quot;Complete the new-trainer handoff&quot;,
+        &quot;Read this now&quot;
+      ],
+      &quot;key&quot;: 1,
+      &quot;feedback&quot;: &quot;The title describes the task the reader needs to complete.&quot;
+    },
+    {
+      &quot;prompt&quot;: &quot;What improves a long unstructured job aid?&quot;,
+      &quot;options&quot;: [
+        &quot;More decoration only&quot;,
+        &quot;Removing all headings&quot;,
+        &quot;Prerequisites, ordered actions and an expected result&quot;
+      ],
+      &quot;key&quot;: 2,
+      &quot;feedback&quot;: &quot;A task structure helps readers act and verify success.&quot;
+    },
+    {
+      &quot;prompt&quot;: &quot;A link guarantees access to a restricted page. Is that accurate?&quot;,
+      &quot;options&quot;: [
+        &quot;No; effective permissions still apply&quot;,
+        &quot;Yes, for everyone&quot;,
+        &quot;Yes, if sent twice&quot;
+      ],
+      &quot;key&quot;: 0,
+      &quot;feedback&quot;: &quot;Sharing a URL does not replace permission checks.&quot;
+    },
+    {
+      &quot;prompt&quot;: &quot;Which plan limitation matters here?&quot;,
+      &quot;options&quot;: [
+        &quot;All plans are identical&quot;,
+        &quot;Content restrictions are unavailable on the Free plan&quot;,
+        &quot;Headings require a paid plan&quot;
+      ],
+      &quot;key&quot;: 1,
+      &quot;feedback&quot;: &quot;Check the tenant’s capabilities before planning restriction-based access.&quot;
+    },
+    {
+      &quot;prompt&quot;: &quot;Which is the strongest final publishing check?&quot;,
+      &quot;options&quot;: [
+        &quot;Assume your own view is everyone’s view&quot;,
+        &quot;Count the words only&quot;,
+        &quot;Have an intended reader verify access and complete the task&quot;
+      ],
+      &quot;key&quot;: 2,
+      &quot;feedback&quot;: &quot;A representative reader tests both access and usability.&quot;
+    }
+  ],
+  &quot;jobaid&quot;: [
+    &quot;Title the page for the task.&quot;,
+    &quot;Use prerequisites, ordered actions and expected result.&quot;,
+    &quot;Name an owner and review date.&quot;,
+    &quot;Verify intended reader access before sharing.&quot;
+  ],
+  &quot;sources&quot;: [
+    [
+      &quot;Atlassian: Confluence permissions&quot;,
+      &quot;https://support.atlassian.com/confluence-cloud/docs/what-are-confluence-cloud-permissions-and-restrictions/&quot;
+    ],
+    [
+      &quot;Atlassian: Content restrictions&quot;,
+      &quot;https://support.atlassian.com/confluence-cloud/docs/add-or-remove-page-restrictions/&quot;
+    ]
+  ],
+  &quot;duration&quot;: &quot;12–15 minutes&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;brand&quot;: {
+    &quot;name&quot;: &quot;intuit turbotax&quot;,
+    &quot;context&quot;: &quot;Independent portfolio study&quot;,
+    &quot;primary&quot;: &quot;#C8202F&quot;,
+    &quot;ink&quot;: &quot;#172B32&quot;
+  },
+  &quot;disclosure&quot;: &quot;Original fictional workplace scenarios. This independent portfolio sample is not official employer or vendor training.&quot;
+}</pre></html>
